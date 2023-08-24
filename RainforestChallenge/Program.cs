@@ -47,5 +47,5 @@ async Task _getRequest(HttpClient httpClient, string uri)
     }
     while (makeNextRequest);
 
-    await Console.Out.WriteLineAsync($"Congratulations, you made it! Response: [{responseContent}]");
+    await Console.Out.WriteLineAsync($"Finished!\nResponse: [{responseContent}]");
 }

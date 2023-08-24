@@ -10,5 +10,11 @@ namespace RainforestChallenge
     {
         public string follow { get; set; }
         public string message { get; set; }
+
+        public RainforestGetResponse()
+        {
+            follow = string.Empty;
+            message = string.Empty;
+        }
     }
 }
